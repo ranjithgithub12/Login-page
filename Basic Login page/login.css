@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home-page-container{
+    background-image: linear-gradient(to top,#a6f5f5,#ffffff);
+    height: 100vh;
+    padding: 60px;
+}
+.login-page-container{
+    border-radius: 10px;
+    border: 1px solid #51e8e8;
+    background-color: #ffffff;
+    height: 100%;
+    padding: 25px 30px 30px 60px;
+}
+.company-logo-contianer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon{
+    color: #0885ac;
+}
+.company-heading{
+    margin-left: 10px;
+    font-family: "Roboto";
+    color: #0885ac;
+}
+.loginform-image-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+.login-form-contianer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #51e8e8;
+    width: 50%;
+    padding:50px 20px 50px 20px;
+}
+.input-container{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: rgb(228, 227, 227);
+}
+.user-input{
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    width: 100%;
+    background-color: transparent;
+}
+.remember-forgot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rember-password{
+    display: flex;
+    flex-direction: row;
+}
+
+#mycheckbox{
+    border-color: #51e8e8;
+}
+.remember-text{
+    margin-left: 5px;
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #474747;
+}
+.forgot-text{   
+    color: #7c25ec;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 600;
+}
+.login-button{
+    background-color: #46118b;
+    color: #ffffff;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.no-account{
+    color: #9e9e9e;
+    font-size: 12px;
+}
+.another-login-text{
+    font-size: 15px;
+    margin: 10px 0px 15px 0px;
+    color: #9e9e9e;
+}
+.login-with-contianer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+.icon-container{
+    border: 1px solid #9e9e9e;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+.twitter{
+    color: #58abe2;
+}
+.facebook{
+    color: #3441f7;
+}
+.google{
+    color: #b7dd0f;
+}
+.login-image{
+    width: 500px;
+}
